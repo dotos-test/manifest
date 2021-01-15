@@ -30,11 +30,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <!-- CodeAurora additions -->
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="dot" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="dot" />
-  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="dot" />
-
   <!-- Dot Repos -->
   <project path="vendor/dot" name="android_vendor_dot" remote="dot" />
   <project path="device/dot/sepolicy" name="android_device_dot_sepolicy" remote="dot" />
